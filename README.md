@@ -1,23 +1,20 @@
-# 🎯 Morpion IA avec Algorithme Min-Max
+# 🎯 Morpion IA - Algorithme Min-Max
 
-Un jeu de Morpion (Tic-Tac-Toe) implémentant l'algorithme Min-Max avec élagage Alpha-Bêta.
+Un jeu de Morpion intelligent contre une IA utilisant l'algorithme Min-Max avec élagage Alpha-Bêta.
 
-## 🚀 Fonctionnalités
+![Badge Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Badge React](https://img.shields.io/badge/React-18.0%2B-blue)
+![Badge Flask](https://img.shields.io/badge/Flask-2.0%2B-green)
 
-- **Interface React** moderne et responsive
-- **Algorithme Min-Max** avec élagage Alpha-Bêta pour une IA imbattable
-- **Backend Flask** fournissant une API RESTful
-- **Explications détaillées** sur le fonctionnement de l'algorithme
-- **Historique des parties** avec visualisation des plateaux
-- **Système de scores** en temps réel
-- **Processus de réflexion de l'IA** affiché en direct
-- **Design attrayant** avec animations et effets visuels
+## ✨ Fonctionnalités
 
-## 📸 Aperçu
+- 🤖 IA utilisant l'algorithme Min-Max avec élagage Alpha-Bêta
+- 🎨 Interface moderne et responsive
+- 📊 Suivi des scores et historique des parties
+- 🧠 Explications détaillées sur l'algorithme
+- 📱 Compatible mobile et desktop
 
-![Aperçu du jeu](lien_vers_image_apercu.png) <!-- Vous pouvez ajouter une image plus tard -->
-
-## 🛠️ Installation et utilisation
+## 🚀 Installation
 
 ### Prérequis
 
@@ -25,9 +22,47 @@ Un jeu de Morpion (Tic-Tac-Toe) implémentant l'algorithme Min-Max avec élagage
 - Node.js 14+
 - npm ou yarn
 
-### Backend (Flask)
+### Étapes d'installation
 
-```bash
+1. Clonez le dépôt :
+   ```bash
+   git clone https://github.com/fouzaikhawlaf/Morpion-IA-MinMax.git
+   cd Morpion-IA-MinMax
+2.Installez et lancez le backend :
 cd backend
 pip install -r requirements.txt
 python app.py
+3.Installez et lancez le frontend (dans un nouveau terminal) :
+cd frontend
+npm install
+npm start
+4.Ouvrez votre navigateur à l'adresse http://localhost:3000
+
+🧠 À propos de l'algorithme
+L'algorithme Min-Max est un algorithme de décision utilisé en intelligence artificielle pour les jeux à deux joueurs. Il explore récursivement l'arbre des possibles pour déterminer le meilleur coup à jouer.
+
+Fonctionnement
+Exploration de tous les coups possibles
+
+Évaluation de chaque position finale
+
+Propagation des valeurs (maximisation pour l'IA, minimisation pour le joueur)
+
+Sélection du coup optimal
+
+👤 Auteur
+fouzaikhawla-https://github.com/fouzaikhawlaf
+📄 Licence
+Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.
+
+N'hésitez pas à personnaliser ce modèle selon vos préférences. Le plus important est que votre README.md donne une bonne overview de votre projet et explique comment l'installer et l'utiliser.
+
+
+
+
+
+
+
+
+
+
